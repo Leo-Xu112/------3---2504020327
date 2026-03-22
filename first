@@ -40,8 +40,8 @@ LinkList CreatListL()
     LinkList L = InitList();
     ListNode *s, *r;
     char inputBno[20];
-    int continueInput = 1;    //控制输入的标志，为0时结束输入
-    r = L;                     //r初值指向头结点，用于尾插法
+    int continueInput = 1;    //控制输志，为0时结束输入
+    r = L;                     //r初值指向点，用于尾插法
     while (continueInput)
     {
         scanf("%19s %49s", inputBno, book.title);
